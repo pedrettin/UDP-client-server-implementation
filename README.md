@@ -6,22 +6,10 @@ The server will accept UDP packets with a payload consisting of ASCII
 characters starting with either get, put, swap or remove. The colon character is used as a delimiter, 
 so a get command should be formatted as
 
-get:this is the key string
-
-and a put command as
-
-put:another key string:and the corresponding value
-
-The server responds to a get command with a UDP packet containing a payload similar 
-
-success:this is the value string
-
-summary of commands and return payloads:
-
 Command       Found?  Payload
 
 get           
-              yes     success:value
+              yes      success
 
               no      no match
 
