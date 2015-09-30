@@ -18,19 +18,23 @@ success:this is the value string
 
 summary of commands and return payloads:
 
-Command     Found?    Payload
+Command       Found?  Payload
 
-get           yes     success:value
-
-              no      no match
-
-put           yes     updated:key
-
-swap          yes     success
+get           
+              yes     success:value
 
               no      no match
 
-remove        yes     success
+put           
+              yes     updated:key
+
+swap          
+              yes     success
+
+              no      no match
+
+remove        
+              yes     success
 
               no      no match
 
